@@ -37,7 +37,8 @@ module.exports = function(grunt) {
       extend: {
         src: 'test/templates/extend.tmpl.html',
         dest: {
-          'test/json/test': 'tmp/extend'
+          'test/json/test': 'tmp/extend',
+          'test/json/test2': 'tmp/extend2'
         }
       }
     },
