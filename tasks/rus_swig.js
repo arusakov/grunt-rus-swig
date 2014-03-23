@@ -10,7 +10,7 @@
 var swig = require('swig');
 
 swig.setDefaults({
-  loader: swig.loaders.fs(__dirname + '/../')
+  loader: swig.loaders.fs(process.cwd())
 });
 
 module.exports = function(grunt) {
