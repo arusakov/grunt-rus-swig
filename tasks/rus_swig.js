@@ -32,7 +32,16 @@ module.exports = function(grunt) {
     var jsonFilePath;
     for (jsonFilePath in data.dest) {
       var json = grunt.file.readJSON(jsonFilePath + '.json');
-      grunt.file.write(data.dest[jsonFilePath] + '.html', compiledTemplate(json));
+      var dest = data.dest[jsonFilePath];
+      if (Array.isArray(dest)) {
+        var i = dest.length;
+        var content = compiledTemplate(json);
+        while (i--) {
+          grunt.file.write(dest[i] + '.html', content);
+        }
+      } else {
+        grunt.file.write(dest + '.html', compiledTemplate(json));
+      }
     }
   });
 

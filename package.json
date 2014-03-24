@@ -1,7 +1,7 @@
 {
   "name": "grunt-rus-swig",
   "description": "Grunt plugin for swig template engine",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/arusakov/grunt-rus-swig",
   "author": {
     "name": "arusakov",
@@ -32,13 +32,10 @@
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt": "~0.4.4"
   },
-  "peerDependencies": {
-    "grunt": "~0.4.4"
-  },
   "dependencies": {
     "swig": "~1.3.2"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin", "swig", "nodejs", "template"
   ]
 }
