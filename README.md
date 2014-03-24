@@ -25,12 +25,12 @@ In your project's Gruntfile, add a section named `rus_swig` to the data object p
 ```js
 grunt.initConfig({
   rus_swig: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
+    target: {
+      src: 'path/to/swig/template.html', // or .swig or any
+      dest: {
+        'path/to/json': 'tmp/base' // .json -> .html
+      }
+    }
+  }
 });
 ```
