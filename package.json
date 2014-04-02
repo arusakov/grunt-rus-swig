@@ -1,7 +1,7 @@
 {
   "name": "grunt-rus-swig",
   "description": "Grunt plugin for swig template engine",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/arusakov/grunt-rus-swig",
   "author": {
     "name": "arusakov",
