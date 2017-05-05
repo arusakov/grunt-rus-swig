@@ -1,5 +1,7 @@
 # grunt-rus-swig
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/arusakov/grunt-rus-swig.svg)](https://greenkeeper.io/)
+
 > Grunt plugin for swig template engine
 
 ## Getting Started
